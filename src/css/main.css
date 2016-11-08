@@ -1,0 +1,55 @@
+html {
+	background: url('http://wallpapercave.com/wp/8FFTKBs.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+body {
+	color: #fbab00;
+	text-align: center;
+}
+
+h4 {
+	text-decoration: underline
+}
+
+@font-face {
+	font-family: star-hollow;
+	src: url(star_jedi/starjout/Starjout.ttf);
+}
+
+h1 {
+	font-family: star-hollow;
+	margin-bottom: 55px;
+	font-size: 60px;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	font-weight: lighter;
+	line-height: 50px
+}
+
+@font-face {
+	font-family: star;
+	src: url(star_jedi/starjedi/Starjedi.ttf);
+}
+
+h2 {
+	font-family: star;
+	/*font-weight: lighter;*/
+	cursor: pointer;
+	border-top: #fbab00 2px solid;
+	border-bottom: #fbab00 2px solid;
+	width: 175px;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+
+button {
+	border: none;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 18px;
+	margin-top: 30px;
+}
